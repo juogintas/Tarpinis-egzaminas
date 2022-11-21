@@ -1,0 +1,29 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+    nav {
+        display: flex;
+        gap: 10px;
+        padding-bottom: 5px;
+
+        a {
+            color: $blue;
+        }
+
+    }
+
+    p {
+        opacity: 0.5;
+        font-size: 0.7em;
+    }
+
+    .socials {
+        display: flex;
+        gap: 15px;
+        color: $blue;
+    }
+
+}
